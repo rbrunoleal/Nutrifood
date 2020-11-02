@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <TextView android:text="Peso"
+           android:layout_marginTop="15sp"
+           android:layout_marginLeft="17sp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/txtpeso"
+           />
+
+       <EditText
+           android:background="@drawable/caixa_arredondada"
+           android:layout_marginTop="15sp"
+           android:layout_marginLeft="15sp"
+           android:layout_width="70sp"
+           android:layout_height="25dp"
+           android:inputType="numberDecimal"
+           android:id="@+id/editpeso"
+           android:layout_toRightOf="@+id/txtpeso"
+           />
+
+       <TextView android:text="Altura"
+           android:layout_marginTop="20sp"
+           android:layout_marginLeft="15sp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/txtaltura"
+           android:layout_below="@+id/txtpeso"
+           />
+
+       <EditText
+           android:background="@drawable/caixa_arredondada"
+           android:layout_width="70sp"
+           android:layout_marginLeft="12sp"
+           android:layout_marginTop="10sp"
+           android:layout_height="25sp"
+           android:inputType="numberDecimal"
+           android:id="@+id/editalt"
+           android:layout_toRightOf="@+id/txtaltura"
+           android:layout_below="@+id/editpeso"
+           />
+
+
+       <Button
+           android:background="@drawable/caixa_arredondada"
+           android:layout_marginTop="20sp"
+           android:layout_width="75sp"
+           android:layout_height="30sp"
+           android:layout_below="@+id/txtaltura"
+           android:text="Calcular"
+           android:layout_marginLeft="12sp"
+           android:textColor="#3a115c"
+           android:id="@+id/calcular"/>
+
+       <View
+           android:text="Teste"
+           android:layout_marginTop="10sp"
+           android:layout_below="@+id/calcular"
+           android:layout_height="2sp"
+           android:layout_width="match_parent"
+           android:background="#3a115c"
+           android:id="@+id/view"
+           >
+
+       </View>
+
+       <TextView
+           android:layout_marginLeft="10sp"
+           android:layout_height="wrap_content"
+           android:layout_width="wrap_content"
+           android:layout_marginTop="5sp"
+           android:text="Seu IMC é:"
+           android:id="@+id/txtimc"
+           android:layout_below="@+id/view"/>
+
+       <TextView
+           android:layout_marginLeft="5sp"
+           android:layout_marginTop="5sp"
+           android:layout_below="@+id/view"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text=""
+           android:id="@+id/resposta"
+           android:layout_toRightOf="@+id/txtimc"/>
+
+       <TextView
+           android:layout_height="wrap_content"
+           android:id="@+id/txtpesoideal"
+           android:layout_width="wrap_content"
+           android:layout_below="@+id/txtimc"
+           android:layout_marginLeft="10sp"
+           android:layout_marginTop="5sp"
+           android:text="Peso ideal:"/>
+       <TextView
+            android:layout_below="@+id/resposta"
+           android:layout_toRightOf="@+id/txtpesoideal"
+           android:layout_marginLeft="5sp"
+           android:layout_marginTop="5sp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text=""
+
+           android:id="@+id/peside"/>
+
+       <TextView
+           android:id="@+id/indicedemassacorporal"
+           android:layout_height="wrap_content"
+           android:layout_width="wrap_content"
+           android:text="Indice de Massa Corporal:"
+           android:textSize="15sp"
+           android:layout_below="@+id/txtpesoideal"
+           android:layout_toRightOf="@+id/editalt"
+           android:layout_toEndOf="@+id/editalt" />
+
+
+       <View
+           android:background="#3a115c"
+           android:layout_width="match_parent"
+           android:layout_height="2sp"
+           android:id="@+id/view2"
+           android:layout_marginTop="5sp"
+           android:layout_below="@+id/indicedemassacorporal">
+
+       </View>
+
+       <TextView
+           android:layout_marginLeft="10sp"
+           android:layout_below="@+id/view2"
+           android:layout_marginTop="10sp"
+           android:text="Abaixo do peso:                =19.5"
+           android:id="@+id/abaixo"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"/>
+
+       <TextView
+           android:layout_marginLeft="10sp"
+           android:layout_below="@+id/abaixo"
+           android:layout_marginTop="10sp"
+           android:text="Peso normal:               =19.5 - 26.0"
+           android:id="@+id/normal1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"/>
+
+       <TextView
+           android:layout_marginLeft="10sp"
+           android:layout_below="@+id/normal1"
+           android:layout_marginTop="10sp"
+           android:text="Sobrepeso:                  =26.0 - 31.0"
+           android:id="@+id/sobre1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"/>
+
+       <TextView
+           android:layout_marginLeft="10sp"
+           android:layout_below="@+id/sobre1"
+           android:layout_marginTop="10sp"
+           android:text="Obsidade:                    =31.0 - 41.0"
+           android:id="@+id/obesidade1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"/>
+
+       <TextView
+           android:layout_marginLeft="10sp"
+           android:layout_below="@+id/obesidade1"
+           android:layout_marginTop="10sp"
+           android:text="Obesidade Mórbida:      >=41.0"
+           android:id="@+id/obesidadem1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"/>
+
+       
+       <Button
+           android:layout_width="20sp"
+           android:layout_height="20sp"
+           android:id="@+id/button4"
+           android:onClick="clickt"
+           android:layout_toRightOf="@+id/button1"
+           android:layout_marginLeft="20sp"
+           android:background="@drawable/femalezero"
+           android:layout_below="@+id/obesidadem1"
+           />
+
+
+
+
+   </RelativeLayout>
+
+</ScrollView>

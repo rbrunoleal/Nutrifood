@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/graviolahd"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Descrição:"
+            android:id="@+id/textView"
+            android:layout_alignParentTop="true"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            android:textSize="18dp"
+            android:gravity="center_horizontal" android:layout_gravity="fill_horizontal"
+            android:layout_alignParentTop="true" android:layout_width="match_parent"
+            android:text="A graviola é uma planta originária das Antilhas, tambem conhecida como Fruta-do-Conde. É grande, tem forma ovalada e casca verde-pálida com espinhas. Possui polpa branca, de sabor agridoce."
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Indicado Para:"
+            android:id="@+id/textView2"
+            android:layout_alignParentTop="true"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            android:textSize="18dp"
+            android:gravity="center_horizontal" android:layout_gravity="fill_horizontal"
+            android:layout_alignParentTop="true" android:layout_width="match_parent"
+            android:text="Gastrite, úlcera, obesidade, prisão de ventre, diabetes, problemas digestivos, doenças no fígado, hipertensão, depressão, insônia, enxaquecas, gripes , vermes, diarreia e reumatismos."
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rico Em (Características Nutricionais):"
+            android:id="@+id/textView3"
+            android:layout_alignParentTop="true"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            android:textSize="18dp"
+            android:gravity="center_horizontal" android:layout_gravity="fill_horizontal"
+            android:layout_alignParentTop="true" android:layout_width="match_parent"
+            android:text="Magnésio, cálcio, potássio, fósforo, sódio e vitamina C."
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/curiosidades"
+            android:id="@+id/textView4"
+            android:layout_alignParentTop="true"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            android:textSize="18dp"
+            android:gravity="center_horizontal" android:layout_gravity="fill_horizontal"
+            android:layout_alignParentTop="true" android:layout_width="match_parent"
+            android:text="A graviola está contraindicada para indivíduos com caxumba, aftas ou ferimentos na boca, pois sua acidez pode provocar dor."
+            />
+        <TextView
+            android:textSize="18dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentRight="true"
+
+            android:layout_weight="1"
+            android:gravity="center_horizontal" android:layout_gravity="fill_horizontal"
+            android:layout_alignParentTop="true" android:layout_width="match_parent"
+            android:text="Alguns dos itens presentes em ''Rico Em(Caracteristicas Nutricionais)'', podem ser encontrados na aba Nutrição deste aplicativo."
+
+            />
+
+
+
+    </LinearLayout>
+
+</ScrollView>

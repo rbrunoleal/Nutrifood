@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/branco">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Descrição:"
+            android:id="@+id/textView"
+            android:layout_alignParentTop="true"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:textSize="18dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            android:gravity="center_horizontal" android:layout_gravity="fill_horizontal"
+            android:layout_alignParentTop="true" android:layout_width="match_parent"
+            android:text="A Vitamina E apresenta um papel fundamental na proteção do organismo contra os efeitos prejudiciais das espécies reativas de oxigênio (EROS) que são formadas metabolicamente ou encontradas no ambiente."
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Indicado Para:"
+            android:id="@+id/textView2"
+            android:layout_alignParentTop="true"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:textSize="18dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            android:gravity="center_horizontal" android:layout_gravity="fill_horizontal"
+            android:layout_alignParentTop="true" android:layout_width="match_parent"
+            android:text="Inflamações."/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Encontrado em (Alimentos):"
+            android:id="@+id/textView3"
+            android:layout_alignParentTop="true"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:textSize="18dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            android:gravity="center_horizontal" android:layout_gravity="fill_horizontal"
+            android:layout_alignParentTop="true" android:layout_width="match_parent"
+            android:text="Óleos (girassol, amendoim), sementes de girassol, amêndoas, amendoim, vegetais de folhas verde-escuras."
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ingestão Diária Recomendada - IDR:"
+            android:id="@+id/textView10"
+            android:layout_alignParentTop="true"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:textSize="18dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            android:gravity="center_horizontal" android:layout_gravity="fill_horizontal"
+            android:layout_alignParentTop="true" android:layout_width="match_parent"
+            android:text="Adultos - 15*"
+            />
+        <TextView
+            android:textSize="18dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            android:gravity="center_horizontal" android:layout_gravity="fill_horizontal"
+            android:layout_alignParentTop="true" android:layout_width="match_parent"
+            android:text="Crianças - 11*"
+            />
+        <TextView
+            android:textSize="18dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            android:gravity="center_horizontal" android:layout_gravity="fill_horizontal"
+            android:layout_alignParentTop="true" android:layout_width="match_parent"
+            android:text="Gestantes - 15*"
+            />
+        <TextView
+            android:textSize="18dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            android:gravity="center_horizontal" android:layout_gravity="fill_horizontal"
+            android:layout_alignParentTop="true" android:layout_width="match_parent"
+            android:text="*Medidas avaliadas em: mg (miligrama)."
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nota:"
+            android:id="@+id/textView4"
+            android:layout_alignParentTop="true"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:textSize="18dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            android:gravity="center_horizontal" android:layout_gravity="fill_horizontal"
+            android:layout_alignParentTop="true" android:layout_width="match_parent"
+            android:text="Alguns dos itens presentes em ''Econtrado em(Alimentos)'', podem ser consultados na aba Alimentos deste aplicativo."
+            />
+    </LinearLayout>
+
+</ScrollView>

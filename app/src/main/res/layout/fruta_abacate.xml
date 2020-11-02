@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/abacatehd">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="16dp"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descrição:"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_weight="1"
+        android:layout_marginLeft="5dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_weight="1"
+        android:textSize="18dp"
+        android:gravity="center_horizontal" android:layout_gravity="fill_horizontal"
+        android:layout_alignParentTop="true" android:layout_width="match_parent"
+        android:text="É o fruto comestível do abacateiro, uma árvore da família da laureáceas nativa do México ou da América do Sul, hoje extensamente cultivada em regiões tropicais."
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Indicado Para:"
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_weight="1"
+        android:layout_marginLeft="5dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_weight="1"
+        android:textSize="18dp"
+        android:gravity="center_horizontal" android:layout_gravity="fill_horizontal"
+        android:layout_alignParentTop="true" android:layout_width="match_parent"
+        android:text="Reumatismo, bronquite, cálculos renais, diarreia, dor de cabeça, parasitas intestinais, colesterol, úlcera gástrica, tosse, rouquidão, artrite."
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rico Em (Características Nutricionais):"
+        android:id="@+id/textView3"
+        android:layout_alignParentTop="true"
+        android:layout_weight="1"
+        android:layout_marginLeft="5dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_weight="1"
+        android:textSize="18dp"
+        android:gravity="center_horizontal" android:layout_gravity="fill_horizontal"
+        android:layout_alignParentTop="true" android:layout_width="match_parent"
+        android:text="Cálcio, ferro, proteínas, manganês, sódio, fósforo, zinco, potássio e Vitaminas A, do complexo B, C, E e K."
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/curiosidades"
+        android:id="@+id/textView4"
+        android:layout_alignParentTop="true"
+        android:layout_weight="1"
+        android:layout_marginLeft="5dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_weight="1"
+        android:textSize="18dp"
+        android:gravity="center_horizontal" android:layout_gravity="fill_horizontal"
+        android:layout_alignParentTop="true" android:layout_width="match_parent"
+        android:text="Tem mais de 30% de gorduras, é rico em açúcares e vitaminas e possui um dos mais elevados teores de proteínas e vitamina A entre as frutas."
+        />
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_weight="1"
+        android:textSize="18dp"
+        android:gravity="center_horizontal" android:layout_gravity="fill_horizontal"
+        android:layout_alignParentTop="true" android:layout_width="match_parent"
+        android:text="Alguns dos itens presentes em ''Rico Em(Caracteristicas Nutricionais)'', podem ser encontrados na aba Nutrição deste aplicativo."
+
+        />
+
+
+
+</LinearLayout>
+</ScrollView>

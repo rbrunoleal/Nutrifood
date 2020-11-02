@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gengibrehd"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Descrição:"
+            android:id="@+id/textView"
+            android:layout_alignParentTop="true"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            android:textSize="18dp"
+            android:gravity="center_horizontal" android:layout_gravity="fill_horizontal"
+            android:layout_alignParentTop="true" android:layout_width="match_parent"
+            android:text="O gengibre é uma planta herbácea da família das Zingiberaceae, originária da ilha de Java, da Índia e da China, de onde se difundiu pelas regiões tropicais do mundo."
+    />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Indicado Para:"
+            android:id="@+id/textView2"
+            android:layout_alignParentTop="true"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textSize="18dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal" android:layout_gravity="fill_horizontal"
+            android:layout_alignParentTop="true" android:layout_width="match_parent"
+            android:text="Náuseas, inflamações, azia, gripes, resfriados, enxaquecas."
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rico Em (Características Nutricionais):"
+            android:id="@+id/textView3"
+            android:layout_alignParentTop="true"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            android:textSize="18dp"
+            android:gravity="center_horizontal" android:layout_gravity="fill_horizontal"
+            android:layout_alignParentTop="true" android:layout_width="match_parent"
+            android:text="Manganésio, cobre, magnésio, potássio e vitamina do complexo B."    />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/curiosidades"
+            android:id="@+id/textView4"
+            android:layout_alignParentTop="true"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            android:textSize="18dp"
+            android:gravity="center_horizontal" android:layout_gravity="fill_horizontal"
+            android:layout_alignParentTop="true" android:layout_width="match_parent"
+            android:text="O gengibre tem ação bactericida, é desintoxicante e acredita-se há séculos que possua poder afrodisíaco. Na medicina chinesa tradicional, por sua reconhecida ação na circulação sanguínea, é utilizado contra a disfunção erétil. O óleo de gengibre também é utilizado para massagear o abdômen, aquecendo o corpo e excitando os órgãos sexuais."  />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentRight="true"
+            android:textSize="18dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal" android:layout_gravity="fill_horizontal"
+            android:layout_alignParentTop="true" android:layout_width="match_parent"
+            android:text="Alguns dos itens presentes em ''Rico Em(Caracteristicas Nutricionais)'', podem ser encontrados na aba Nutrição deste aplicativo."
+
+            />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/sementedegirassolhd">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Descrição:"
+            android:id="@+id/textView"
+            android:layout_alignParentTop="true"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            android:textSize="18dp"
+            android:gravity="center_horizontal" android:layout_gravity="fill_horizontal"
+            android:layout_alignParentTop="true" android:layout_width="match_parent"
+            android:text="As sementes de girassol são aquénios de Helianthus annuus que, secos e salgados, consomem-se como aperitivo, descascando a casca externa ou pericarpo."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Indicado Para:"
+            android:id="@+id/textView2"
+            android:layout_alignParentTop="true"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            android:textSize="18dp"
+            android:gravity="center_horizontal" android:layout_gravity="fill_horizontal"
+            android:layout_alignParentTop="true" android:layout_width="match_parent"
+            android:text="Inflamações, ossos, sistema nervoso, pele, colesterol, coração."
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rico Em (Características Nutricionais):"
+            android:id="@+id/textView3"
+            android:layout_alignParentTop="true"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            android:textSize="18dp"
+            android:gravity="center_horizontal" android:layout_gravity="fill_horizontal"
+            android:layout_alignParentTop="true" android:layout_width="match_parent"
+            android:text="Fibras, cálcio, proteínas, potássio, cobre, fósforo, selênio e vitaminas A, do complexo B e E."
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/curiosidades"
+            android:id="@+id/textView4"
+            android:layout_alignParentTop="true"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            android:textSize="18dp"
+            android:gravity="center_horizontal" android:layout_gravity="fill_horizontal"
+            android:layout_alignParentTop="true" android:layout_width="match_parent"
+            android:text="Há mais de 5 mil anos tem sido usada pelos índios americanos, e foram levadas para outros países pela Espanha."
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            android:textSize="18dp"
+            android:gravity="center_horizontal" android:layout_gravity="fill_horizontal"
+            android:layout_alignParentTop="true" android:layout_width="match_parent"
+            android:text="Alguns dos itens presentes em ''Rico Em(Caracteristicas Nutricionais)'', podem ser encontrados na aba Nutrição deste aplicativo."          />
+
+
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/branco">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/linear3">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:id="@+id/imageView2"
+            android:background="@drawable/piramide"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pirâmide Nutricional:"
+            android:id="@+id/textView2"
+            android:layout_marginLeft="5dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_weight="1"
+            android:layout_alignParentStart="true"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:textSize="18dp"
+            android:gravity="center_horizontal"
+            android:layout_alignParentTop="true" android:layout_width="match_parent"
+            android:layout_alignParentRight="true"
+            android:text="A pirâmide proposta foi dividida então, quatro
+níveis:"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1 Nivel: Grupo dos cereais, tubérculos, raízes."
+            android:textSize="18dp"
+            android:id="@+id/textView91"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_weight="1"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2 Nivel: Grupo das hortaliças e grupo das frutas."
+            android:textSize="18dp"
+            android:id="@+id/textView92"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_weight="1"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3 Nivel: Grupo do leite e produtos lácteos, grupo das carnes e ovos e grupo das leguminosas."
+            android:textSize="18dp"
+            android:id="@+id/textView93"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_weight="1"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4 Nivel: Grupo dos óleos e gorduras e grupo dos açúcares e doces."
+            android:textSize="18dp"
+            android:id="@+id/textView94"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_weight="1"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Terceiro nivel todos de origem protéica devendo ser consumidos na proporção de 10 a 15% do valor energético total , não significando, no entanto, que possam ser substituídos entre si. Os alimentos do quarto nivel devem ter seu consumo moderado, uma vez que já existem de forma natural, de composição ou de adição, em vários alimentos e preparações."
+            android:textSize="18dp"
+            android:id="@+id/textView95"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_weight="1"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Informações Adcionais:"
+            android:id="@+id/textView7"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dependendo do grupo populacional tem necessidade de alertar para os riscos à saúde resultantes do uso excessivo dos alimentos como óleo, gorduras, açúcares e doces."
+            android:textSize="18dp"
+            android:id="@+id/textView90"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_weight="1"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• Dar preferência aos vegetais como frutas, verduras e legumes;"
+            android:textSize="18dp"
+            android:id="@+id/textView99"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_weight="1"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="• Ficar atento ao modo de preparo dos alimentos, dando  prioridade aos alimentos em sua forma natural."
+            android:textSize="18dp"
+            android:id="@+id/textView97"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_weight="1"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" • Ler os rótulos dos alimentos industrializados para conhecer o valor nutritivo do alimento que será consumido."
+            android:textSize="18dp"
+            android:id="@+id/textView96"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_weight="1"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" • Utilizar açúcares, doces, sal e alimentos ricos em sódio com moderação."
+            android:textSize="18dp"
+            android:id="@+id/textView106"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_weight="1"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:textSize="18dp"
+            android:layout_alignParentRight="true"
+            android:gravity="center_horizontal"
+            android:text=" • Consumir alimentos com baixo teor de gordura, dar preferências a leite desnatado e carnes magras."
+            />
+
+    </LinearLayout>
+</ScrollView>

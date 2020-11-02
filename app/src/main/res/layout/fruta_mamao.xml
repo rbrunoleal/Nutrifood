@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/mamaohd">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descrição:"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_weight="1"
+        android:layout_marginLeft="5dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_weight="1"
+        android:textSize="18dp"
+        android:gravity="center_horizontal" android:layout_gravity="fill_horizontal"
+        android:layout_alignParentTop="true" android:layout_width="match_parent"
+        android:text="O fruto do mamoeiro ou papaeira, árvores das espécies do gênero Carica, especialmente de Carica papaya."
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Indicado Para:"
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_weight="1"
+        android:layout_marginLeft="5dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_weight="1"
+        android:textSize="18dp"
+        android:gravity="center_horizontal" android:layout_gravity="fill_horizontal"
+        android:layout_alignParentTop="true" android:layout_width="match_parent"
+        android:text="Doenças do estômago, problemas cardíacos, diurético, pressão arterial, anemia, sistema imunologico."
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rico Em (Características Nutricionais):"
+        android:id="@+id/textView3"
+        android:layout_alignParentTop="true"
+        android:layout_weight="1"
+        android:layout_marginLeft="5dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_weight="1"
+        android:textSize="18dp"
+        android:gravity="center_horizontal" android:layout_gravity="fill_horizontal"
+        android:layout_alignParentTop="true" android:layout_width="match_parent"
+        android:text="Magnésio, cálcio, ferro, fósforo, potássio, fibras, vitaminas A, do complexo B e C."
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/curiosidades"
+        android:id="@+id/textView4"
+        android:layout_alignParentTop="true"
+        android:layout_weight="1"
+        android:layout_marginLeft="5dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_weight="1"
+        android:textSize="18dp"
+        android:gravity="center_horizontal" android:layout_gravity="fill_horizontal"
+        android:layout_alignParentTop="true" android:layout_width="match_parent"
+        android:text="O consumo do mamão é recomendado pelos nutricionistas por se constituir em um alimento rico em  vitamina C e minerais importantes para o organismo. Quanto mais maduro, maior a concentração desses nutrientes."
+        />
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_weight="1"
+        android:textSize="18dp"
+        android:gravity="center_horizontal" android:layout_gravity="fill_horizontal"
+        android:layout_alignParentTop="true" android:layout_width="match_parent"
+        android:text="Alguns dos itens presentes em ''Rico Em(Caracteristicas Nutricionais)'', podem ser encontrados na aba Nutrição deste aplicativo."
+
+        />
+
+
+
+</LinearLayout>
+</ScrollView>

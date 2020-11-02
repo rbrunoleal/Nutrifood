@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/branco">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Descrição:"
+            android:id="@+id/textView"
+            android:layout_alignParentTop="true"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            android:gravity="center_horizontal" android:layout_gravity="fill_horizontal"
+            android:layout_alignParentTop="true" android:layout_width="match_parent"
+            android:text="O Iodo é um nutriente essencial para saúde, funcionando como manuntenção, desenvolvimento e crescimento do corpo, além de eliminar toxinas e ser um aliado do coração."
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Indicado Para:"
+            android:id="@+id/textView2"
+            android:layout_alignParentTop="true"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            android:gravity="center_horizontal" android:layout_gravity="fill_horizontal"
+            android:layout_alignParentTop="true" android:layout_width="match_parent"
+            android:text="Energia, Crescimento, pele, cabelos, unhas, metabolismo da tireoide."/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Encontrado em (Alimentos):"
+            android:id="@+id/textView3"
+            android:layout_alignParentTop="true"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            android:gravity="center_horizontal" android:layout_gravity="fill_horizontal"
+            android:layout_alignParentTop="true" android:layout_width="match_parent"
+            android:text="Frutos do mar(principalmente mariscos), sal."
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ingestão Diária Recomendada - IDR:"
+            android:id="@+id/textView10"
+            android:layout_alignParentTop="true"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textSize="18dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal" android:layout_gravity="fill_horizontal"
+            android:layout_alignParentTop="true" android:layout_width="match_parent"
+            android:text="Possui variação de acordo com demais nutrientes, idade, sexo dentre outros, Consulte um Nutricionista."/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nota:"
+            android:id="@+id/textView4"
+            android:layout_alignParentTop="true"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentRight="true"
+            android:layout_weight="1"
+            android:textSize="18dp"
+            android:gravity="center_horizontal" android:layout_gravity="fill_horizontal"
+            android:layout_alignParentTop="true" android:layout_width="match_parent"
+            android:text="Alguns dos itens presentes em ''Econtrado em(Alimentos)'', podem ser consultados na aba Alimentos deste aplicativo."
+            />
+    </LinearLayout>
+
+</ScrollView>

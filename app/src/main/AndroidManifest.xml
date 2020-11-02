@@ -1,0 +1,697 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tk.divesdk.nutrifood">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:supportsRtl="true"
+        android:label="NutriFood"
+        android:theme="@style/AppTheme">
+
+      <!--This meta-data tag is required to use Google Play Services.-->
+      <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+      <meta-data android:name="com.revmob.app.id" android:value="55ad4753e048701b618e161f"/>
+
+      <activity android:name="com.google.android.gms.ads.AdActivity"
+          android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+          android:theme="@android:style/Theme.Translucent" />
+
+
+    <activity android:name=".tela_splash"
+        android:screenOrientation="portrait"
+        android:configChanges="orientation"
+        >
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+
+
+    <activity
+        android:name=".tela_principal"
+        android:theme="@style/AppTheme.NoActionBar">
+    </activity>
+
+      <activity
+          android:name=".tela_sobre"
+          android:label="Sobre"
+          >
+      </activity>
+
+      <activity
+          android:name=".tela_contato"
+          android:label="Contato">
+
+      </activity>
+
+
+
+
+    <activity android:name=".tela_imc"
+              android:label="IMC">
+
+    </activity>
+
+      <activity android:name=".tela_piramide"
+          android:label="Pirâmide Nutricional">
+
+      </activity>
+
+   <activity android:name=".tela_gcorp"
+             android:label="Taxa de Gordura Corporal">
+
+   </activity>
+
+      <activity
+            android:label="Frutos Secos"
+            android:name="tk.divesdk.nutrifood.tela_frutossecos"
+
+            >
+        </activity>
+
+        <activity
+            android:label="Leguminosas"
+            android:name="tk.divesdk.nutrifood.tela_leguminosas"
+
+            >
+        </activity>
+
+        <activity
+            android:label="Cereais"
+            android:name="tk.divesdk.nutrifood.tela_cereais"
+
+            >
+        </activity>
+
+        <activity
+            android:label="Legumes"
+            android:name="tk.divesdk.nutrifood.tela_legumes"
+
+            >
+        </activity>
+
+        <activity
+            android:label="Frutas"
+            android:name="tk.divesdk.nutrifood.tela_frutas"
+
+            >
+        </activity>
+
+        <activity
+            android:label="Especiarias"
+            android:name="tk.divesdk.nutrifood.tela_especiarias">
+        </activity>
+
+        <activity
+            android:label="Nutrientes"
+            android:name="tk.divesdk.nutrifood.tela_nutrientes">
+        </activity>
+
+        <activity
+            android:label="Nutrição - Vitamina A"
+            android:name="tk.divesdk.nutrifood.nutricao_vitaminaa">
+        </activity>
+
+        <activity
+            android:label="Nutrição - Complexo B"
+            android:name="tk.divesdk.nutrifood.nutricao_complexob">
+        </activity>
+
+
+        <activity
+            android:label="Nutrição - Vitamina C"
+            android:name="tk.divesdk.nutrifood.nutricao_vitaminac">
+        </activity>
+
+        <activity
+            android:label="Nutrição - Vitamina D"
+            android:name="tk.divesdk.nutrifood.nutricao_vitaminad">
+        </activity>
+
+        <activity
+            android:label="Nutrição - Vitamina E"
+            android:name="tk.divesdk.nutrifood.nutricao_vitaminae">
+        </activity>
+
+
+        <activity
+            android:label="Nutrição - Vitamina H"
+            android:name="tk.divesdk.nutrifood.nutricao_vitaminah">
+        </activity>
+
+        <activity
+            android:label="Nutrição - Vitamina K"
+            android:name="tk.divesdk.nutrifood.nutricao_vitaminak">
+        </activity>
+
+        <activity
+            android:label="Nutrição - Cálcio"
+            android:name="tk.divesdk.nutrifood.nutricao_calcio">
+        </activity>
+
+        <activity
+            android:label="Nutrição - Cromo"
+            android:name="tk.divesdk.nutrifood.nutricao_cromo">
+        </activity>
+
+        <activity
+            android:label="Nutrição - Ferro"
+            android:name="tk.divesdk.nutrifood.nutricao_ferro">
+        </activity>
+
+        <activity
+            android:label="Nutrição - Fósforo"
+            android:name="tk.divesdk.nutrifood.nutricao_fosforo">
+        </activity>
+
+        <activity
+            android:label="Nutrição - Iodo"
+            android:name="tk.divesdk.nutrifood.nutricao_iodo">
+        </activity>
+
+        <activity
+            android:label="Nutrição - Magnésio"
+            android:name="tk.divesdk.nutrifood.nutricao_magnesio">
+        </activity>
+
+        <activity
+            android:label="Nutrição - Sódio"
+            android:name="tk.divesdk.nutrifood.nutricao_sodio">
+        </activity>
+
+        <activity
+            android:label="Nutrição - Potassio"
+            android:name="tk.divesdk.nutrifood.nutricao_potassio">
+        </activity>
+
+        <activity
+            android:label="Nutrição - Selênio"
+            android:name="tk.divesdk.nutrifood.nutricao_selenio">
+         </activity>
+
+        <activity
+            android:label="Nutrição - Cobre"
+            android:name="tk.divesdk.nutrifood.nutricao_cobre">
+        </activity>
+
+        <activity
+            android:label="Nutrição - Zinco"
+            android:name="tk.divesdk.nutrifood.nutricao_zinco">
+        </activity>
+
+        <activity
+            android:label="Nutrição - Manganês"
+            android:name="tk.divesdk.nutrifood.nutricao_manganes">
+        </activity>
+
+
+        <activity
+            android:label="Nutrição - Molibdênio"
+            android:name="tk.divesdk.nutrifood.nutricao_molibdenio">
+        </activity>
+
+        <activity
+            android:label="Frutas - Abacate"
+            android:name="tk.divesdk.nutrifood.fruta_abacate"            >
+        </activity>
+
+        <activity
+            android:label="Frutas - Abacaxi"
+            android:name="tk.divesdk.nutrifood.fruta_abacaxi"            >
+        </activity>
+
+        <activity
+            android:label="Frutas - Açai"
+            android:name="tk.divesdk.nutrifood.fruta_acai"            >
+        </activity>
+
+        <activity
+            android:label="Frutas - Acerola"
+            android:name="tk.divesdk.nutrifood.fruta_acerola"            >
+        </activity>
+
+        <activity
+            android:label="Frutas - Amora"
+            android:name="tk.divesdk.nutrifood.fruta_amora"            >
+        </activity>
+
+        <activity
+            android:label="Frutas - Ameixa"
+            android:name="tk.divesdk.nutrifood.fruta_ameixa"            >
+        </activity>
+
+        <activity
+            android:label="Frutas - Banana"
+            android:name="tk.divesdk.nutrifood.fruta_banana"            >
+        </activity>
+
+        <activity
+            android:label="Frutas - Damasco"
+            android:name="tk.divesdk.nutrifood.fruta_damasco"            >
+        </activity>
+
+        <activity
+            android:label="Frutas - Figo"
+            android:name="tk.divesdk.nutrifood.fruta_figo"            >
+        </activity>
+
+        <activity
+            android:label="Frutas - Goiaba"
+            android:name="tk.divesdk.nutrifood.fruta_goiaba"            >
+        </activity>
+
+        <activity
+            android:label="Frutas - Graviola"
+            android:name="tk.divesdk.nutrifood.fruta_graviola"            >
+        </activity>
+
+        <activity
+            android:label="Frutas - Kiwi"
+            android:name="tk.divesdk.nutrifood.fruta_kiwi"            >
+        </activity>
+
+        <activity
+            android:label="Frutas - Laranja"
+            android:name="tk.divesdk.nutrifood.fruta_laranja"            >
+        </activity>
+
+        <activity
+            android:label="Frutas - Limão"
+            android:name="tk.divesdk.nutrifood.fruta_limao"            >
+        </activity>
+
+        <activity
+            android:label="Frutas - Maçã"
+            android:name="tk.divesdk.nutrifood.fruta_maca"            >
+        </activity>
+
+        <activity
+            android:label="Frutas - Mamão"
+            android:name="tk.divesdk.nutrifood.fruta_mamao"            >
+        </activity>
+
+        <activity
+            android:label="Frutas - Manga"
+            android:name="tk.divesdk.nutrifood.fruta_manga"            >
+        </activity>
+
+        <activity
+            android:label="Frutas - Mangaba"
+            android:name="tk.divesdk.nutrifood.fruta_mangaba"            >
+        </activity>
+
+        <activity
+            android:label="Frutas - Maracujá"
+            android:name="tk.divesdk.nutrifood.fruta_maracuja"            >
+        </activity>
+
+        <activity
+            android:label="Frutas - Melancia"
+            android:name="tk.divesdk.nutrifood.fruta_melancia"            >
+        </activity>
+
+        <activity
+            android:label="Frutas - Melão"
+            android:name="tk.divesdk.nutrifood.fruta_melao"            >
+        </activity>
+
+        <activity
+            android:label="Frutas - Mirtilo"
+            android:name="tk.divesdk.nutrifood.fruta_mirtilo"            >
+        </activity>
+
+        <activity
+            android:label="Frutas - Morango"
+            android:name="tk.divesdk.nutrifood.fruta_morango"            >
+        </activity>
+
+        <activity
+            android:label="Frutas - Pêra"
+            android:name="tk.divesdk.nutrifood.fruta_pera"            >
+        </activity>
+
+        <activity
+            android:label="Frutas - Tangerina"
+            android:name="tk.divesdk.nutrifood.fruta_tangerina"            >
+        </activity>
+
+        <activity
+            android:label="Frutas - Toranja"
+            android:name="tk.divesdk.nutrifood.fruta_toranja"            >
+        </activity>
+
+        <activity
+            android:label="Frutas - Uva"
+            android:name="tk.divesdk.nutrifood.fruta_uva"            >
+        </activity>
+
+        <activity
+            android:label="Legumes - Abóbora"
+            android:name="tk.divesdk.nutrifood.legume_abobora"            >
+        </activity>
+
+        <activity
+            android:label="Legumes - Abobrinha"
+            android:name="tk.divesdk.nutrifood.legume_abobrinha"            >
+        </activity>
+
+        <activity
+            android:label="Legumes - Aipo"
+            android:name="tk.divesdk.nutrifood.legume_aipo"            >
+        </activity>
+
+        <activity
+            android:label="Legumes - Alface"
+            android:name="tk.divesdk.nutrifood.legume_alface"            >
+        </activity>
+
+        <activity
+            android:label="Legumes - Alho"
+            android:name="tk.divesdk.nutrifood.legume_alho"            >
+        </activity>
+
+        <activity
+            android:label="Legumes - Alho Francês"
+            android:name="tk.divesdk.nutrifood.legume_alhofrances"            >
+        </activity>
+
+        <activity
+            android:label="Legumes - Azeitona"
+            android:name="tk.divesdk.nutrifood.legume_azeitona"            >
+        </activity>
+
+        <activity
+            android:label="Legumes - Batata"
+            android:name="tk.divesdk.nutrifood.legume_batata"            >
+        </activity>
+
+        <activity
+            android:label="Legumes - Batata Doce"
+            android:name="tk.divesdk.nutrifood.legume_batatadoce"            >
+        </activity>
+
+        <activity
+            android:label="Legumes - Beringela"
+            android:name="tk.divesdk.nutrifood.legume_beringela"            >
+        </activity>
+
+        <activity
+            android:label="Legumes - Beterraba"
+            android:name="tk.divesdk.nutrifood.legume_beterraba"            >
+        </activity>
+
+        <activity
+            android:label="Legumes - Brócolis"
+            android:name="tk.divesdk.nutrifood.legume_brocolis"            >
+        </activity>
+
+        <activity
+            android:label="Legumes - Cebola"
+            android:name="tk.divesdk.nutrifood.legume_cebola"            >
+        </activity>
+
+        <activity
+            android:label="Legumes - Cenoura"
+            android:name="tk.divesdk.nutrifood.legume_cenoura"            >
+        </activity>
+
+        <activity
+            android:label="Legumes - Chuchu"
+            android:name="tk.divesdk.nutrifood.legume_chuchu"            >
+        </activity>
+
+        <activity
+            android:label="Legumes - Cogumelo Shiitake"
+            android:name="tk.divesdk.nutrifood.legume_cogumeloshiitake"            >
+        </activity>
+
+        <activity
+            android:label="Legumes - Couve"
+            android:name="tk.divesdk.nutrifood.legume_couve"            >
+        </activity>
+
+        <activity
+            android:label="Legumes - Couve de Bruxelas"
+            android:name="tk.divesdk.nutrifood.legume_couvedebruxelas"            >
+        </activity>
+
+        <activity
+            android:label="Legumes - Couve-Flor"
+            android:name="tk.divesdk.nutrifood.legume_couveflor"            >
+        </activity>
+
+        <activity
+            android:label="Legumes - Ervilha"
+            android:name="tk.divesdk.nutrifood.legume_ervilha"            >
+        </activity>
+
+        <activity
+            android:label="Legumes - Espinafre"
+            android:name="tk.divesdk.nutrifood.legume_espinafre"            >
+        </activity>
+
+        <activity
+            android:label="Legumes - Inhame"
+            android:name="tk.divesdk.nutrifood.legume_inhame"            >
+        </activity>
+
+        <activity
+            android:label="Legumes - Nabo"
+            android:name="tk.divesdk.nutrifood.legume_nabo"            >
+        </activity>
+
+        <activity
+            android:label="Legumes - Pepino"
+            android:name="tk.divesdk.nutrifood.legume_pepino"            >
+        </activity>
+
+        <activity
+            android:label="Legumes - Pimentão"
+            android:name="tk.divesdk.nutrifood.legume_pimentao"            >
+        </activity>
+
+        <activity
+            android:label="Legumes - Tomate"
+            android:name="tk.divesdk.nutrifood.legume_tomate"            >
+        </activity>
+
+        <activity
+            android:label="Cereais - Arroz Integral"
+            android:name="tk.divesdk.nutrifood.cereal_arrozintegral"            >
+        </activity>
+
+        <activity
+            android:label="Cereais - Aveia"
+            android:name="tk.divesdk.nutrifood.cereal_aveia"            >
+        </activity>
+
+        <activity
+            android:label="Cereais - Centeio"
+            android:name="tk.divesdk.nutrifood.cereal_centeio"            >
+        </activity>
+
+        <activity
+            android:label="Cereais - Cevada"
+            android:name="tk.divesdk.nutrifood.cereal_cevada"            >
+        </activity>
+
+        <activity
+            android:label="Cereais - Milhete"
+            android:name="tk.divesdk.nutrifood.cereal_milhete"            >
+        </activity>
+
+        <activity
+            android:label="Cereais - Milho"
+            android:name="tk.divesdk.nutrifood.cereal_milho"            >
+        </activity>
+
+        <activity
+            android:label="Cereais - Quinoa"
+            android:name="tk.divesdk.nutrifood.cereal_quinoa"            >
+        </activity>
+
+        <activity
+            android:label="Cereais - Trigo"
+            android:name="tk.divesdk.nutrifood.cereal_trigo"            >
+        </activity>
+
+        <activity
+            android:label="Cereais - Trigo Sarraceno"
+            android:name="tk.divesdk.nutrifood.cereal_trigosarraceno"            >
+        </activity>
+
+        <activity
+            android:label="Leguminosas - Amendoim"
+            android:name="tk.divesdk.nutrifood.leguminosas_amendoim"
+            >
+        </activity>
+
+        <activity
+            android:label="Leguminosas - Fava"
+            android:name="tk.divesdk.nutrifood.leguminosas_fava"
+            >
+        </activity>
+
+        <activity
+            android:label="Leguminosas - Feijão Branco"
+            android:name="tk.divesdk.nutrifood.leguminosas_feijaobranco"
+            >
+        </activity>
+
+        <activity
+            android:label="Leguminosas - Feijão Vermelho"
+            android:name="tk.divesdk.nutrifood.leguminosas_feijaovermelho"
+            >
+        </activity>
+
+        <activity
+            android:label="Leguminosas - Feijão Preto"
+            android:name="tk.divesdk.nutrifood.leguminosas_feijaopreto"
+            >
+        </activity>
+
+        <activity
+            android:label="Leguminosas - Grão de Bico"
+            android:name="tk.divesdk.nutrifood.leguminosas_graodebico"
+            >
+        </activity>
+
+        <activity
+            android:label="Leguminosas - Lentilha"
+            android:name="tk.divesdk.nutrifood.leguminosas_lentilha"
+            >
+        </activity>
+
+        <activity
+            android:label="Leguminosas - Miso"
+            android:name="tk.divesdk.nutrifood.leguminosas_miso"
+            >
+        </activity>
+
+        <activity
+            android:label="Leguminosas - Soja"
+            android:name="tk.divesdk.nutrifood.leguminosas_soja"
+            >
+        </activity>
+
+        <activity
+            android:label="Leguminosas - Tofu"
+            android:name="tk.divesdk.nutrifood.leguminosas_tofu"
+            >
+        </activity>
+
+        <activity
+            android:label="Frutos Secos - Amêndoa"
+            android:name="tk.divesdk.nutrifood.frutassecas_amendoa"
+            >
+        </activity>
+
+        <activity
+            android:label="Frutos Secos - Avelã"
+            android:name="tk.divesdk.nutrifood.frutassecas_avela"
+            >
+        </activity>
+
+        <activity
+            android:label="Frutos Secos - Castanha de caju"
+            android:name="tk.divesdk.nutrifood.frutassecas_castanhadecaju"
+            >
+        </activity>
+
+        <activity
+            android:label="Frutos Secos - Noz"
+            android:name="tk.divesdk.nutrifood.frutassecas_noz"
+            >
+        </activity>
+
+        <activity
+            android:label="Frutos Secos - Sementes de abóbora"
+            android:name="tk.divesdk.nutrifood.frutassecas_sementesabobora"
+            >
+        </activity>
+
+        <activity
+            android:label="Frutos Secos - Sementes de girassol"
+            android:name="tk.divesdk.nutrifood.frutassecas_sementesgirassol"
+            >
+        </activity>
+
+        <activity
+            android:label="Frutos Secos - Sementes de linhaça"
+            android:name="tk.divesdk.nutrifood.frutassecas_sementeslinhaca"
+            >
+        </activity>
+
+        <activity
+            android:label="Frutos Secos - Sementes de sésamo"
+            android:name="tk.divesdk.nutrifood.frutassecas_sementessesamo"
+            >
+        </activity>
+
+        <activity
+            android:label="Frutos Secos - Tamâras"
+            android:name="tk.divesdk.nutrifood.frutassecas_tamaras"
+            >
+        </activity>
+
+        <activity
+            android:label="Especiarias - Açafrão"
+            android:name="tk.divesdk.nutrifood.especiarias_acafrao"
+            >
+        </activity>
+
+        <activity
+            android:label="Especiarias - Canela"
+            android:name="tk.divesdk.nutrifood.especiarias_canela"
+            >
+        </activity>
+
+        <activity
+            android:label="Especiarias - Cominho"
+            android:name="tk.divesdk.nutrifood.especiarias_cominho"
+            >
+        </activity>
+
+        <activity
+            android:label="Especiarias - Cravo"
+            android:name="tk.divesdk.nutrifood.especiarias_cravo"
+            >
+        </activity>
+
+        <activity
+            android:label="Especiarias - Gengibre"
+            android:name="tk.divesdk.nutrifood.especiarias_gengibre"
+            >
+        </activity>
+
+        <activity
+            android:label="Especiarias - Pimenta Caiena"
+            android:name="tk.divesdk.nutrifood.especiarias_pimentacaiena"
+            >
+        </activity>
+
+        <activity
+            android:label="Especiarias - Pimenta do Reino"
+            android:name="tk.divesdk.nutrifood.especiarias_pimentadoreino"
+            >
+        </activity>
+
+        <activity
+            android:label="Especiarias - Pimenta Malagueta"
+            android:name="tk.divesdk.nutrifood.especiarias_pimentamalagueta"
+            >
+        </activity>
+
+
+
+    </application>
+
+</manifest>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/melanciahd">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descrição:"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_weight="1"
+        android:layout_marginLeft="5dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_weight="1"
+        android:textSize="18dp"
+        android:gravity="center_horizontal" android:layout_gravity="fill_horizontal"
+        android:layout_alignParentTop="true" android:layout_width="match_parent"
+        android:text="É o nome de uma planta da família Cucurbitaceae e do seu fruto. Trata-se de uma erva trepadeira rastejante originária da África. É cultivada ou aparece em várias regiões do Brasil, geralmente em áreas secas e de solo arenoso."
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Indicado Para:"
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_weight="1"
+        android:layout_marginLeft="5dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_weight="1"
+        android:textSize="18dp"
+        android:gravity="center_horizontal" android:layout_gravity="fill_horizontal"
+        android:layout_alignParentTop="true" android:layout_width="match_parent"
+        android:text="Pele, coração, estômago, intestino, pressao arterial."
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rico Em (Características Nutricionais):"
+        android:id="@+id/textView3"
+        android:layout_alignParentTop="true"
+        android:layout_weight="1"
+        android:layout_marginLeft="5dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_weight="1"
+        android:textSize="18dp"
+        android:gravity="center_horizontal" android:layout_gravity="fill_horizontal"
+        android:layout_alignParentTop="true" android:layout_width="match_parent"
+        android:text=" Magnésio, cálcio, potássio, fósforo e vitaminas do complexo B e C."
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/curiosidades"
+        android:id="@+id/textView4"
+        android:layout_alignParentTop="true"
+        android:layout_weight="1"
+        android:layout_marginLeft="5dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_weight="1"
+        android:textSize="18dp"
+        android:gravity="center_horizontal" android:layout_gravity="fill_horizontal"
+        android:layout_alignParentTop="true" android:layout_width="match_parent"
+        android:text="A Melancia é uma excelente fonte de água, pois aproximadamente, 90% do seu corpo é composto por água. O Consumo de melancia ajuda na hidratação do corpo que reduz as tonturas."
+        />
+    <TextView
+        android:textSize="18dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_weight="1"
+        android:gravity="center_horizontal" android:layout_gravity="fill_horizontal"
+        android:layout_alignParentTop="true" android:layout_width="match_parent"
+        android:text="Alguns dos itens presentes em ''Rico Em(Caracteristicas Nutricionais)'', podem ser encontrados na aba Nutrição deste aplicativo."
+
+        />
+
+
+
+</LinearLayout>
+    </ScrollView>
